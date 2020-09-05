@@ -1,8 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { ui } from "./firebase";
 
 function App() {
+  console.log("UMBREON", ui);
   return (
     <div className="App">
       <header className="App-header">
